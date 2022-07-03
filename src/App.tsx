@@ -115,14 +115,18 @@ function App() {
           style={
             playerData.scalingDisabled
               ? {
-                  transform: "scale(1)",
-                }
+                transform: "scale(1)",
+              }
               : {}
           }
         />
       </div>
 
       <div className="player-content">
+        <div className="scroll-left">
+          <p className="welcome">Welcome to Tkz songs. Hope you enjoy and have good time with this ♡ Visit me at: <a target="_blank" href="https://www.facebook.com/tuannguyen2394/">Tuan Nguyen</a></p>
+        </div>
+
         {playerData.showSongsList && (
           <AllSongs
             onSongClick={(songId) => {

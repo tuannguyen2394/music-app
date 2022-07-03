@@ -35,12 +35,6 @@ function Overlay({ player }: OverlayProps) {
         </div>
         <div className="credits">
           <div className="product-hunt"></div>
-          <div className="giphy">
-            GIF by{" "}
-            <a target="_blank" href={gif.user?.profile_url}>
-              {gif.user?.name}
-            </a>
-          </div>
         </div>
       </Fragment>
     );
