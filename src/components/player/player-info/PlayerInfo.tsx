@@ -70,7 +70,7 @@ function PlayerInfo({ infoRef, player, onEcashClick }: PlayerInfoProps) {
           <span>Facebook</span>
         </button>
         <button
-          onClick={() => window.open("https://portfolio-five-ebon-39.vercel.app/")}
+          onClick={() => window.open("https://portfolio-tuannguyen2395.vercel.app/")}
           className="btn gh"
         >
           <PortfolioIcon />
