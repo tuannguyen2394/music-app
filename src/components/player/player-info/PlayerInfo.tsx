@@ -1,5 +1,5 @@
 import { ReactComponent as YoutubeIcon } from "../../../icons/youtube-icon.svg";
-import { ReactComponent as GiithubIcon } from "../../../icons/github-icon.svg";
+import { ReactComponent as PortfolioIcon } from "../../../icons/portfolio-icon.svg";
 import { ReactComponent as BMFIcon } from "../../../icons/bmf-icon.svg";
 import { ReactComponent as FacebookIcon } from "../../../icons/facebook-icon.svg";
 import { ReactComponent as Logo } from "../../../icons/lofifm.svg";
@@ -68,6 +68,13 @@ function PlayerInfo({ infoRef, player, onEcashClick }: PlayerInfoProps) {
         >
           <FacebookIcon />
           <span>Facebook</span>
+        </button>
+        <button
+          onClick={() => window.open("https://portfolio-five-ebon-39.vercel.app/")}
+          className="btn gh"
+        >
+          <PortfolioIcon />
+          <span>Portfolio</span>
         </button>
         <button
           onClick={() => window.open("https://www.buymeacoffee.com/tuannguyentkz")}
